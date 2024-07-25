@@ -302,6 +302,14 @@ form button{
   margin-right: 20px;
   margin-bottom: 25px;
   margin-top: 10px;
+  font-size: 30px;
+}
+.contact-socials:hover{
+  transform: translateY(20%);
+  transition: width 2s, height 2s;
+}
+.contact-socials a{
+  color: var(--textColor);
 }
 .slide-left{
   margin-left: 50px;

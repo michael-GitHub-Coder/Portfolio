@@ -14,7 +14,7 @@ function ContactMe(){
                     <h2>Location</h2>
                     <p>Olievenhoutbosch, Centurion</p>
                     <div className="contact-socials">
-                        <FaGithub/><FaLinkedin/>
+                        <a href="https://github.com/michael-GitHub-Coder?tab=repositories"><FaGithub/></a>   <a href="https://www.linkedin.com/in/michael-thulare-426780172/"><FaLinkedin/></a>
                     </div>
                 </div>
             </div>
