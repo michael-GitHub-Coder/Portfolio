@@ -1,5 +1,7 @@
 import {useRef} from "react";
-import {FaBars, FaTimes} from "react-icons/fa";
+import {FaBars, FaGithub, FaTimes} from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+
 
 function Navbar(){
 
@@ -26,7 +28,10 @@ function Navbar(){
             <div class="header-text">
                 <p>Full-Stack Developer</p>
                 <h1>Hi, I'm <span>Michael</span><br/>Thulare from South Africa</h1>
-                <button>Portfolio</button> <button className="noBackground">Contact Me</button>
+                <button>Portfolio</button> <button className="noBackground">Contact Me</button><br/>
+                <div className="socials">
+                    <a href="https://github.com/michael-GitHub-Coder?tab=repositories"><FaGithub/></a> <a href="https://www.linkedin.com/in/michael-thulare-426780172/"><FaLinkedin/></a>
+                </div>
             </div>
         </div>
     )
