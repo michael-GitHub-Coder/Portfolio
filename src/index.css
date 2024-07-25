@@ -246,7 +246,7 @@ button:hover{
 /* ------------------Contact me --------- */
 .FormBackground{
   padding: 20px 5%;
-  background-color: var(--mainColor);
+  background-color: var(--mainColorLight);
   display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -287,8 +287,13 @@ form button{
   background-color: var(--secondaryColor);
   color: var(--textColor);
 }
+.form-section{
+  margin-top: 60px;
+}
 .contactmeme{
   color: var(--textColor);
+  margin-top: 40px;
+
 }
 .contactmeme h2{
   margin-top: 10px;
@@ -297,6 +302,9 @@ form button{
   margin-right: 20px;
   margin-bottom: 25px;
   margin-top: 10px;
+}
+.slide-left{
+  margin-left: 50px;
 }
 /* ----------------------------- */
 @media only screen and (max-width:1024px) {
