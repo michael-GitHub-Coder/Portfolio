@@ -5,7 +5,6 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Portfolio from './Components/Portfolio'
 import Aboutme from './Components/Aboutme'
-import Footer from './Components/Footer'
 import ContactMe from './Components/ContactMe'
 
 function App() {
@@ -16,8 +15,6 @@ function App() {
     <section id="Portfolio"><Portfolio/></section>
     <section id="AboutMe"><Aboutme/></section>
      <section id="contactMe"><ContactMe/></section>
-     <Footer/>
-     
     </>
   )
 }
