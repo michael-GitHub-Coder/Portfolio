@@ -250,7 +250,7 @@ button:hover{
   display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 /* form{
   text-align: center;
