@@ -20,7 +20,8 @@ function Portfolio(){
                 <img src={img1} />
                     <div className="layer">
                         <h3>Black Markrt</h3>
-                        <p>Black market is ana online shopping app for mostely things that are rare and hard to find.</p>
+                        <p>Black Market is an online shopping app that specializes in rare and hard-to-find items.
+ It caters to consumers seeking unique, unusual, or collectible products that may not be easily available through traditional retail channels.</p>
                         <a href="#"><FaHashtag/></a>
                     </div>
                 </div>
@@ -28,7 +29,7 @@ function Portfolio(){
                     <img src={img3} />
                     <div className="layer">
                         <h3>Temperature and Transport System</h3>
-                        <p>This system was developed for students during the height of covid-19 to record their temperature before entering or using any of the institution's properties.</p>
+                        <p>This system was created during the peak of COVID-19 to allow students to log their temperature before accessing any of the institution's facilities.</p>
                         <a href="#"><FaHashtag/></a>
                     </div>
                 </div>
