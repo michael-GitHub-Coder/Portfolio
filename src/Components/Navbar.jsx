@@ -32,7 +32,12 @@ function Navbar(){
                 <a href="#Portfolio"><button >Portfolio</button></a> 
                 <a href="#contactMe"><button className="noBackground">Contact Me</button><br/></a>
                 <div className="socials">
-                    <a href="https://github.com/michael-GitHub-Coder?tab=repositories"><FaGithub/></a>  <a href="https://www.linkedin.com/in/michael-thulare-426780172/"><FaLinkedin/></a>
+                    <a href="https://github.com/michael-GitHub-Coder?tab=repositories">
+                        <FaGithub />
+                    </a>
+                    <a href="https://www.linkedin.com/in/michael-thulare-426780172/">
+                        <FaLinkedin />
+                    </a>
                 </div>
             </div>
         </div>

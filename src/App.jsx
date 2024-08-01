@@ -7,6 +7,7 @@ import Portfolio from './Components/Portfolio'
 import Aboutme from './Components/Aboutme'
 import ContactMe from './Components/ContactMe'
 
+
 function App() {
   
   return (
@@ -14,7 +15,7 @@ function App() {
     <section id="Home"><Navbar/></section>
     <section id="Portfolio"><Portfolio/></section>
     <section id="AboutMe"><Aboutme/></section>
-     <section id="contactMe"><ContactMe/></section>
+    <section id="contactMe"><ContactMe/></section>
     </>
   )
 }

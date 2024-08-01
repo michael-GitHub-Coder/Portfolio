@@ -46,13 +46,15 @@ nav a{
   color: var(--textColor);
   margin-right: 20px;
   cursor: pointer;
+  transition: transform 2s ease, width 2s, height 2s;
 }
 .socials a{
- color: var(--textColor);
+ color: var(--secondaryColor);
+ display: inline-block;
+ margin-right: 10px;
 }
 .socials :hover{
   transform: translateY(20%);
-  transition: width 2s, height 2s;
 }
 .backP h3{
   margin-top: 30px;
@@ -260,6 +262,17 @@ button:hover{
   font-size: 60px;
   font-weight: 600;
 }
+.FormBackground a{
+  text-decoration: none;
+  color: var(--textColor);
+}
+.pos{
+  color: var(--secondaryColor);
+}
+textarea{
+  resize: none;
+}
+
 form input{
   width: 500px;
   padding: 10px;
@@ -303,17 +316,22 @@ form button{
   margin-bottom: 25px;
   margin-top: 10px;
   font-size: 30px;
+  display: inline-flexbox;
+  transition: transform 2s ease, width 2s, height 2s;
 }
-.contact-socials:hover{
-  transform: translateY(20%);
-  transition: width 2s, height 2s;
-}
+
 .contact-socials a{
-  color: var(--textColor);
+  display: inline-block;
+  margin-right: 10px;
+  color:var(--secondaryColor);
+}
+.contact-socials :hover{
+  transform: translateY(20%);
 }
 .slide-left{
   margin-left: 50px;
 }
+
 /* ----------------------------- */
 @media only screen and (max-width:1024px) {
 
