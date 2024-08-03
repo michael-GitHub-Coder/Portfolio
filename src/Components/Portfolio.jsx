@@ -20,7 +20,7 @@ function Portfolio(){
                 <img src={img1} />
                     <div className="layer">
                         <h3>Black Markrt</h3>
-                        <p>Black market is an online shopping app for mostly things that are rare and hard to find.</p>
+                        <p>Black Market is an online shopping app primarily for rare and hard-to-find items.</p>
                         <a href="#"><FaHashtag/></a>
                     </div>
                 </div>
