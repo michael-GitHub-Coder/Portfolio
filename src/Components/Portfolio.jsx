@@ -1,6 +1,6 @@
 import img1 from "../images/b2.jpg";
 import img2 from "../images/drone55.avif";
-import img3 from "../images/arduino.avif";
+import img3 from "../images/tshimologong-dark-logo.svg";
 import { FaHashtag,FaAppStore } from "react-icons/fa";
 
 function Portfolio(){
