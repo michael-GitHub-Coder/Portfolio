@@ -27,9 +27,9 @@ function Portfolio(){
                 <div className="work">
                     <img src={img3} />
                     <div className="layer">
-                        <h3>Temperature and Transport System</h3>
-                        <p>This system was developed for students during the height of covid-19 to record their temperature before entering or using any of the institution's properties.</p>
-                        <a href="#"><FaHashtag/></a>
+                        <h3>Tshimologong Website clone</h3>
+                        <p>Tshimologong website clone.</p>
+                        <a href="https://tshimologong-clone.vercel.app/"><FaHashtag/></a>
                     </div>
                 </div>
             </div>
