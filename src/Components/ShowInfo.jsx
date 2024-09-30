@@ -2,7 +2,7 @@ import React from 'react'
 import DATA from '../data.json'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-import { GaugeComponent } from 'react-gauge-component';
+import Chart from './Chart'
 const ShowInfo = () => {
 
     const {id} = useParams();
@@ -22,7 +22,10 @@ const ShowInfo = () => {
                             <p  className="text-gray-400">{data.Description}</p>
                             <h1 className="font-semibold pt-5">Technologsies used</h1>
                             <p className="text-gray-400">{data.Tools}</p>
-                            <GaugeComponent  />
+                            {/* <GaugeComponent  /> */}
+                           
+                           <Chart names={data.Tools} percentages={data.Tools_perce}/>
+                          
                             <div className="flex gap-5 absolute bottom-1 lg:bottom-5">
                                 <Link to={data.url}><button className="bg-green-500 hover:bg-green-700 px-5 py-1 rounded-tl-lg rounded-br-lg text-white">Live</button></Link>
                                 <Link to={data['git-url']}><button className="bg-gray-400 hover:bg-gray-600 px-5 py-1 rounded-tl-lg rounded-br-lg text-white">GitHub</button></Link>

@@ -6,7 +6,8 @@
             "title": "Puppy Login Component",
             "image": "/images/ppp.png",
             "Description": "",
-            "Tools": "React,Tailwind CSS, Javascript",
+            "Tools": ["React","Tailwind CSS", "Javascript"],
+            "Tools_perce":["10","50","40"],
             "git-url": "https://github.com/michael-GitHub-Coder/AnimatedHands.git"
         },
         {
@@ -15,7 +16,8 @@
             "title": "Tshimologong Website Clone",
             "image": "/images/tty.png",
             "Description": "",
-            "Tools": "React,Tailwind CSS, Javascript",
+            "Tools": ["React","Tailwind CSS", "Javascript"],
+            "Tools_perce":["10","50","40"],
             "git-url": "https://github.com/michael-GitHub-Coder/Tshimologong-clone.git"
         },
         {
@@ -24,7 +26,8 @@
             "title": "WeThinkCode_ Website Clone",
             "image": "/images/wethinkcode.png",
             "Description": "",
-            "Tools": "React,Tailwind CSS, Javascript",
+            "Tools": ["React","Tailwind CSS", "Javascript"],
+            "Tools_perce":["10","50","40"],
             "git-url": "https://github.com/michael-GitHub-Coder/WeThinkCode-Clone.git"
         },
         {
@@ -33,7 +36,8 @@
             "title": "MovieFinder",
             "image": "/images/mf.png",
             "Description": "",
-            "Tools": "React,Tailwind CSS, Javascript",
+            "Tools": ["React","Tailwind CSS", "Javascript"],
+            "Tools_perce":["10","50","40"],
             "git-url": "https://github.com/michael-GitHub-Coder/MovieFinder.git"
         }
     ]
