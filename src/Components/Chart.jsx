@@ -33,7 +33,7 @@ const Chart = ({ names = [], percentages = [] }) => {
 
   return (
     <div style={{ width: '200px', margin: '0 auto' }}>
-      <Pie data={data} />
+      <Pie data={data} className="-ml-20"/>
     </div>
   );
 };
