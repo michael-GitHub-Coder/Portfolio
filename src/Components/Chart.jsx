@@ -7,7 +7,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 const Chart = ({ names = [], percentages = [] }) => {
   const data = {
-    labels: names,
+    labels: names,  // These labels are now only for tooltips, not shown as headings
     datasets: [
       {
         label: 'Percentage',
@@ -31,10 +31,18 @@ const Chart = ({ names = [], percentages = [] }) => {
     ],
   };
 
+  const options = {
+    plugins: {
+      legend: {
+        display: false, // This hides the default chart legend
+      },
+    },
+  };
+
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px' }}>
-      {/* Headings */}
-      <div className="headings-container" style={{ display: 'flex', justifyContent: 'space-around', width: '100%', marginBottom: '20px' }}>
+      {/* Custom Headings */}
+      <div className="headings-container" style={{ display: 'flex',gap:'20px', justifyContent: 'space-around', width: '100%', marginBottom: '20px' }}>
         {names.map((name, index) => (
           <div key={index} className="heading-item" style={{ textAlign: 'center' }}>
             <span>{name}</span>
@@ -52,8 +60,8 @@ const Chart = ({ names = [], percentages = [] }) => {
       </div>
 
       {/* Pie Chart with 200px width */}
-      <div style={{ width: '200px', height: '200px' }}>
-        <Pie data={data} />
+      <div style={{ width: '150px', height: '150px' }}>
+        <Pie data={data} options={options} />
       </div>
     </div>
   );
