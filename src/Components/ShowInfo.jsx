@@ -9,13 +9,13 @@ const ShowInfo = () => {
     console.log(id);
 
   return (
-    <div className="h-auto bg-gray-100 px-5 flex justify-center items-center pt-10">
+    <div className="h-auto bg-gray-100  px-5 flex justify-center items-center pt-10">
         <div className="grid grid-cols-1 mb-40 mt-20 md:mt-[120px]">
-            <div className="container mx-auto min-w-3xl h-auto bg-white rounded-tl-3xl rounded-br-3xl">
+            <div className="container mx-auto min-w-5xl h-auto bg-white rounded-tl-3xl rounded-br-3xl">
                 {DATA.data.map(data=>(
                     id == data.id && 
                     <div key={data.id} className="grid grid-cols-1 lg:flex px-5 py-5 gap-5">
-                        <img src={data.image} className="h-80 lg:h-[420px]"/>
+                        <img src={data.image} className="h-50 w-[700px] lg:h-[420px]"/>
                         <div className="relative h-[410px] lg:h-auto">
                             <h1 className="font-semibold ">{data.title}</h1>
                             <h1 className="font-semibold pt-5">Description</h1>
@@ -28,7 +28,7 @@ const ShowInfo = () => {
                                 <Chart names={data.Tools} percentages={data.Tools_perce}  />
                            </div>
                           
-                            <div className="flex gap-5 absolute bottom-1 left-14 lg:bottom-5 ">
+                            <div className="flex gap-5 absolute bottom-1 ">
                                 <Link to={data.url}><button className="bg-green-500 hover:bg-green-700 px-5 py-1 rounded-tl-lg rounded-br-lg text-white">Live</button></Link>
                                 <Link to={data['git-url']}><button className="bg-gray-400 hover:bg-gray-600 px-5 py-1 rounded-tl-lg rounded-br-lg text-white">GitHub</button></Link>
                             </div>
