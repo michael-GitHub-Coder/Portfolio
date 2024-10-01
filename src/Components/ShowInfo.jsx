@@ -25,7 +25,7 @@ const ShowInfo = () => {
                             {/* <GaugeComponent  /> */}
                            
                            <div >
-                                <Chart names={data.Tools} percentages={data.Tools_perce}/>
+                                <Chart names={data.Tools} percentages={data.Tools_perce}  />
                            </div>
                           
                             <div className="flex gap-5 absolute bottom-1 lg:bottom-5">
