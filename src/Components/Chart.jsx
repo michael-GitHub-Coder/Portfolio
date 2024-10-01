@@ -13,17 +13,17 @@ const Chart = ({ names = [], percentages = [] }) => {
         label: 'Percentage',
         data: percentages,
         backgroundColor: [
-          '#FF6384',
-          '#36A2EB',
+          '#00FFFF',
+          '#006400',
           '#FFCE56',
-          '#4CAF50',
+          '#FF4500',
           '#FF5722',
         ],
         hoverBackgroundColor: [
-          '#FF6384',
-          '#36A2EB',
+          '#00FFFF',
+          '#006400',
           '#FFCE56',
-          '#4CAF50',
+          '#FF4500',
           '#FF5722',
         ],
         borderWidth: 1,
@@ -40,9 +40,9 @@ const Chart = ({ names = [], percentages = [] }) => {
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', paddingRight: '20px',paddingTop:'10px',color:'#808080' }}>
       {/* Custom Headings */}
-      <div className="headings-container" style={{ display: 'flex',gap:'20px', justifyContent: 'space-around', width: '100%', marginBottom: '20px' }}>
+      <div className="headings-container" style={{ display: 'flex',gap:'10px',fontsize:'10px', justifyContent: 'space-around', width: '100%', marginBottom: '20px' }}>
         {names.map((name, index) => (
           <div key={index} className="heading-item" style={{ textAlign: 'center' }}>
             <span>{name}</span>

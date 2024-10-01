@@ -36,8 +36,8 @@
             "title": "MovieFinder",
             "image": "/images/mf.png",
             "Description": "",
-            "Tools": ["React","Tailwind CSS", "Javascript"],
-            "Tools_perce":["10","50","40"],
+            "Tools": ["React","Tailwind CSS", "Javascript","TMDB API"],
+            "Tools_perce":["10","50","17","23"],
             "git-url": "https://github.com/michael-GitHub-Coder/MovieFinder.git"
         }
     ]
