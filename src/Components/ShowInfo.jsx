@@ -29,7 +29,7 @@ const ShowInfo = () => {
                            </div>
                           
                             <div className="flex gap-5 absolute bottom-1 ">
-                                <Link to={data.url}><button className="bg-green-500 hover:bg-green-700 px-5 py-1 rounded-tl-lg rounded-br-lg text-white">Live</button></Link>
+                                <Link to={data.url}><button className="bg-green-500 hover:bg-green-700 px-5 py-1 rounded-tl-lg rounded-br-lg text-white">Demo</button></Link>
                                 <Link to={data['git-url']}><button className="bg-gray-400 hover:bg-gray-600 px-5 py-1 rounded-tl-lg rounded-br-lg text-white">GitHub</button></Link>
                             </div>
                         </div>
