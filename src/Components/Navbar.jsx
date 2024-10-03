@@ -22,7 +22,7 @@ const Navbar = () => {
                     <div className="hidden rounded-tl-lg rounded-br-lg mt-[45px] bg-gray-300 border-2 border-transparent w-[120px] group-hover:block  transition-opacity duration-300 ">
                         <div class="-mt-4 ml-4 w-0 h-0 border-l-[20px] border-r-[20px] border-b-[20px] border-l-transparent border-r-transparent border-b-gray-300"></div>
                         <div className="flex gap-2 p-4">
-                                <Link to="motlokwa.thulare@gmail.com"><FaEnvelope className="cursor-pointer"/></Link>
+                                <a href="mailto:motlokwa.thulare@gmail.com"><FaEnvelope className="cursor-pointer"/></a>
                                 <Link to=""><FaLinkedin className="cursor-pointer"/></Link>
                         </div>
                     </div>
