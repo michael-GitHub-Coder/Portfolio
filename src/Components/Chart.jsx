@@ -42,10 +42,10 @@ const Chart = ({ names = [], percentages = [] }) => {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', paddingRight: '20px',paddingTop:'10px',color:'#808080' }}>
       {/* Custom Headings */}
-      <div className="headings-container" style={{ display: 'flex',gap:'10px',fontsize:'10px',  width: '100%', marginBottom: '20px' }}>
+      <div className="headings-container" style={{ display: 'flex',gap:'10px',fontsize:'5px',  width: '100%', marginBottom: '20px' }}>
         {names.map((name, index) => (
           <div key={index} className="heading-item" style={{ textAlign: 'center' }}>
-            <span>{name}</span>
+            <span style={{fontsize:"5px"}}>{name}</span>
             <div
               style={{
                 width: '20px',
