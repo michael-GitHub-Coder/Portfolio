@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const email = "mailto:motlokwa.thulare@gmail.com";
+  const linkedin_url = "https://www.linkedin.com/in/michael-thulare-426780172/";
   return (
     <div className="fixed top-0 left-0 right-0 bg-white shadow-lg">
         <nav className=" z-50 flex md:justify-between items-center md:mx-10 py-5">
@@ -23,7 +24,7 @@ const Navbar = () => {
                         <div class="-mt-4 ml-4 w-0 h-0 border-l-[20px] border-r-[20px] border-b-[20px] border-l-transparent border-r-transparent border-b-gray-300"></div>
                         <div className="flex gap-2 p-4">
                                 <a href={email}><FaEnvelope className="cursor-pointer"/></a>
-                                <Link to=""><FaLinkedin className="cursor-pointer"/></Link>
+                                <Link to={linkedin_url}><FaLinkedin className="cursor-pointer"/></Link>
                         </div>
                     </div>
                 </div>
