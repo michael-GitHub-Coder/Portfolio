@@ -15,8 +15,8 @@ const ShowInfo = () => {
                 {DATA.data.map(data=>(
                     id == data.id && 
                     <div key={data.id} className="grid grid-cols-1 lg:flex px-5 py-5 gap-5">
-                        {data.id == 1 ? <img src={data.image} className="h-50 lg:h-[420px]"/> : <img src={data.image} className="h-50 w-[700px] lg:h-[420px]"/>}
-                        <div className="relative h-auto">
+                        {data.id == 1 ? <img src={data.image} className="h-50 lg:h-[420px]"/> : <img src={data.image} className="h-50 w-[700px] lg:h-[420px] "/>}
+                        <div className="relative h-auto ">
                             <h1 className="font-semibold ">{data.title}</h1>
                             <h1 className="font-semibold pt-5">Description</h1>
                             <p  className="text-gray-400">{data.Description}</p>
@@ -24,7 +24,7 @@ const ShowInfo = () => {
                             {/* <p className="text-gray-400">{data.Tools}</p> */}
                             {/* <GaugeComponent  /> */}
                            
-                           <div className="mb-20">
+                           <div className="mb-[60px]">
                                 <Chart names={data.Tools} percentages={data.Tools_perce}  />
                            </div>
                           

@@ -17,17 +17,17 @@ const Hero = () => {
                         
                         {myData.data.map((item, index) => (
                             <Link to={`/ShowInfo/${item.id}`} >
-                            <div key={index} className="grid grid-cols-1 text-center hover:shadow-lg py-10 rounded-3xl hover:px-5 hover:text-xl">
-                                <div className="flex justify-center">
-                                    <a href={item.url}><img src={item.image} className="h-40 w-50 object-cover" alt={item.title} /></a>
+                                <div key={index} className="grid grid-cols-1 text-center hover:shadow-lg py-10 rounded-3xl ">
+                                    <div className="flex justify-center">
+                                        <a href={item.url}><img src={item.image} className="h-40 w-50 object-cover" alt={item.title} /></a>
+                                    </div>
+                                    <h1 className="py-5 text-gray-400 font-semibold">{item.title}</h1>
+                                    <div className="flex justify-center text-gray-400 gap-4">
+                                        {/* <FaGithub size={30} className="cursor-pointer hover:text-black" />
+                                        <FaLinkedin size={30} className="cursor-pointer hover:text-black" /> */}
+                                    <FaArrowRight />
+                                    </div>
                                 </div>
-                                <h1 className="py-5 text-gray-400 font-semibold">{item.title}</h1>
-                                <div className="flex justify-center text-gray-400 gap-4">
-                                    {/* <FaGithub size={30} className="cursor-pointer hover:text-black" />
-                                    <FaLinkedin size={30} className="cursor-pointer hover:text-black" /> */}
-                                   <FaArrowRight />
-                                </div>
-                            </div>
                             </Link>
                         ))}
                         
