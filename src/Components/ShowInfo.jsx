@@ -19,7 +19,9 @@ const ShowInfo = () => {
                         <div className="relative h-auto ">
                             <h1 className="font-semibold ">{data.title}</h1>
                             <h1 className="font-semibold pt-5">Description</h1>
-                            <p  className="text-gray-400">{data.Description}</p>
+                            <div className="max-w-md">
+                                <p  className="text-gray-400">{data.Description}</p>
+                            </div>
                             <h1 className="font-semibold pt-5">Technologsies used</h1>
                             {/* <p className="text-gray-400">{data.Tools}</p> */}
                             {/* <GaugeComponent  /> */}
