@@ -9,7 +9,7 @@ const ShowInfo = () => {
     console.log(id);
 
   return (
-    <div className="h-auto bg-gray-100  px-5 flex justify-center items-center pt-10">
+    <div className="h-auto md:h-[100vh] bg-gray-100 px-5 flex justify-center items-center pt-10">
         <div className="grid grid-cols-1 mb-40 mt-20 md:mt-[120px]">
             <div className="container mx-auto min-w-5xl h-auto bg-white rounded-tl-3xl rounded-br-3xl">
                 {DATA.data.map(data=>(
